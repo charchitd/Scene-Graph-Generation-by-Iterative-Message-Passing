@@ -1,6 +1,6 @@
 # Scene Graph Generation by Iterative Message Passing
 
-![Screenshot](Capture.png)
+![Screenshot](Capture.PNG)
 
 ## About this repository
 This repository contains an implementation of the models introduced in the paper [Scene Graph Generation by Iterative Message Passing](https://arxiv.org/abs/1701.02426) by Xu et al. The model taks an image and a graph proposal as input and predicts the object and relationship categories in the graph. The network  is implemented using [TensorFlow](https://www.tensorflow.org/) and the rest of the framework is in Python. Because the model is built directly on top of [Faster-RCNN by Ren et al](https://arxiv.org/abs/1506.01497), a substantial amount of data processing code is adapted from the [py-faster-rcnn repository](https://github.com/rbgirshick/py-faster-rcnn). 

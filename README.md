@@ -111,6 +111,12 @@ The evaluation process takes around 10 hours. Setting the evaluation mode to `al
 You can also set the evaluation mode to individual tasks.
 
 ## Visualize a predicted scene graph
+* Visualization:
+![Screenshot](res2.jpeg)<br/>
+
+* Scene-Graph:
+![Screenshot](res2.0.jpeg)<br/>
+
 Follow the following steps to visualize a scene graph predicted by the model:
 1. Prepare or download [the full dataset or the mini-vg dataset](data_tools/).
 2. If you wish to evaluate a pre-trained model, first download a checkpoint in the "Checkpoints" section.
